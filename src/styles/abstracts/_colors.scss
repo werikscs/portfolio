@@ -1,0 +1,40 @@
+$main-primary: #1e1e1e;
+$main-secondary: #7d8688;
+$main-light: #e6edee;
+$main-light-0: #cccccc;
+$special-primary: #99685d;
+$special-secondary: #84716b;
+$special-thirdly: #a79c9a;
+$special-thirdly-0: #ac9787;
+$special-thirdly-1: #b7a091;
+$special-thirdly-2: #c4ab9b;
+$special-blue: #283040;
+$special-blue-85: #283040d9;
+$special-blue-0: #384559;
+
+$text-1: $special-thirdly-2;
+$text-2: $special-primary;
+$text-3: $main-light-0;
+$text-4: #283040;
+$text-shadow: rgba(40, 48, 64, 0.25);
+
+//dark
+$dark-bg: $special-blue-85;
+$dark-div: $special-blue;
+$dark-card-bg: $special-blue;
+$dark-card-btn-bg: $special-blue-0;
+$dark-card-btn-border: $main-light-0;
+$dark-card-btn-text: $main-light-0;
+$dark-icon: $main-light-0;
+
+//light
+$light-bg: $main-light-0;
+$light-text-1: $special-primary;
+$light-text-2: $special-thirdly-2;
+$light-text-3: $special-blue;
+$light-icon: $special-blue;
+// $dark-div: $special-blue;
+// $dark-card-bg: $special-blue;
+// $dark-card-btn-bg: $special-blue-0;
+// $dark-card-btn-border: $main-light-0;
+// $dark-card-btn-text: $main-light-0;

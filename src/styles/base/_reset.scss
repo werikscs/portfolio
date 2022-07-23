@@ -1,0 +1,28 @@
+@use "../abstracts/colors" as *;
+
+@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;800;900&display=swap";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../../assets/imgs/bg-img.png");
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.light {
+  background-color: $light-bg;
+}
+
+.dark {
+  background-color: $dark-bg;
+}
