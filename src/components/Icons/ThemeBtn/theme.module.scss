@@ -1,0 +1,11 @@
+@use "../../../styles/abstracts/colors" as *;
+
+.icon-dark {
+  fill: $dark-icon;
+  stroke: $dark-icon;
+}
+
+.icon-light {
+  fill: $light-icon;
+  stroke: $light-icon;
+}
