@@ -1,0 +1,29 @@
+@use "../../styles/abstracts/colors" as *;
+
+.textStyle {
+  text-shadow: 1px 1px $text-shadow;
+}
+
+.color1-dark {
+  color: $text-1;
+}
+
+.color2-dark {
+  color: $text-2;
+}
+
+.color3-dark {
+  color: $text-3;
+}
+
+.color1-light {
+  color: $text-2;
+}
+
+.color2-light {
+  color: $text-1;
+}
+
+.color3-light {
+  color: $text-4;
+}
