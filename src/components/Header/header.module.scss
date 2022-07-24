@@ -2,8 +2,12 @@
 
 .nav {
   padding: 0 16px;
+  display: flex;
+  justify-content: center;
 
   div {
+    width: 100%;
+    max-width: 1280px;
     height: 75px;
 
     display: flex;
@@ -17,17 +21,58 @@
       display: flex;
       justify-content: space-between;
       width: 110px;
+      padding-bottom: 5px;
+      cursor: pointer;
+
+      :hover {
+        filter: brightness(1.15);
+      }
     }
 
     ul {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
       list-style-type: none;
       gap: 24px;
 
-      li {
-        cursor: pointer;
+      > {
+        .li {
+          font-weight: 400;
+          font-size: 18px;
+          cursor: pointer;
+        }
+
+        .lidark {
+          color: $text-3;
+          &:hover {
+            color: $text-1;
+          }
+        }
+
+        .lilight {
+          color: $text-4;
+          &:hover {
+            color: $text-2;
+          }
+        }
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        gap: 16px;
+        height: 100%;
+        padding-right: 48px;
+      }
+    }
+
+    @media screen and (min-width: 650px) {
+      ul {
+        gap: 0;
       }
     }
   }
