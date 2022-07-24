@@ -1,0 +1,21 @@
+@use "../../../styles/abstracts/colors" as *;
+
+.icon-dark {
+  fill: $dark-icon;
+  stroke: $dark-icon;
+}
+
+.icon-dark:hover path {
+  stroke: $text-1;
+  fill: $text-1;
+}
+
+.icon-light {
+  fill: $light-icon;
+  stroke: $light-icon;
+}
+
+.icon-light:hover path {
+  stroke: $text-2;
+  fill: $text-2;
+}
